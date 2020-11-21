@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :patients
   resources :exams
   resources :offices 
+  get '/patient_list/:id', to: 'doctors#getPatientList'
 end

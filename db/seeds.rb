@@ -8,4 +8,4 @@
 
 Office.create!(name: 'Flatiron General')
 Doctor.create!(name: 'Dr.Meredith Grey', username: 'MGrey', password: 'Seattle', email: 'mgrey@greysloan.com', speciality: 'General Surgery', office_id: Office.first.id)
-Patient.create!(name: 'Sean', profile: 'Sick', comments: 'none', covid: false, office_id: Office.first.id)
+Patient.create!(name: 'Sean Padden', profile: 'Sick', comments: 'none', covid: false, office_id: Office.first.id)
