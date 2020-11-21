@@ -4,8 +4,13 @@ class CreatePatient < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :profile
       t.string :comments
-      t.boolean :covid
+      t.boolean :has_covid
       t.integer :office_id
+      t.integer :age
+      t.string :gender
+      t.string :floor
+      t.string :reason_for_visit
+
     end
   end
 end
