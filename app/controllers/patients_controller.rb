@@ -18,6 +18,11 @@ class PatientsController < ApplicationController
         render json: patient
     end 
 
+    def show
+        patient = Patient.find(params[:id])
+        render json: patient
+    end 
+    
     private
 
     def patient_params
