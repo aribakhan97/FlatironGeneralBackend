@@ -10,6 +10,7 @@ class CreatePatient < ActiveRecord::Migration[6.0]
       t.string :gender
       t.string :floor
       t.string :reason_for_visit
+      t.boolean :priority
 
     end
   end

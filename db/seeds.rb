@@ -26,7 +26,7 @@ profile1={
             rr: 16,
           }
         }
-Patient.create!(name: 'Cristina Yang', profile: profile1.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 205', reason_for_visit: 'Abdominal Pain' )
+Patient.create!(name: 'Cristina Yang', profile: profile1.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 205', reason_for_visit: 'Abdominal Pain', priority: false )
 
 
 
@@ -47,7 +47,7 @@ profile2={
       rr: 16,
     }
   }
-Patient.create!(name: 'Alex Karev', profile: profile2.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 209', reason_for_visit: 'Headache' )
+Patient.create!(name: 'Alex Karev', profile: profile2.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 209', reason_for_visit: 'Headache', priority: false )
 
 
 
@@ -68,7 +68,7 @@ profile3={
       rr: 16,
     }
   }
-Patient.create!(name: 'Addison Montegomery', profile: profile3.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 34, gender: 'Female', floor: 'Floor 2 Room 207', reason_for_visit: 'Ear Pain' )
+Patient.create!(name: 'Addison Montegomery', profile: profile3.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 34, gender: 'Female', floor: 'Floor 2 Room 207', reason_for_visit: 'Ear Pain', priority: false  )
 
 
 
@@ -89,7 +89,7 @@ profile4={
       rr: 18,
     }
   }
-Patient.create!(name: 'Jackson Avery', profile: profile4.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 201', reason_for_visit: 'Cough' )
+Patient.create!(name: 'Jackson Avery', profile: profile4.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 201', reason_for_visit: 'Cough', priority: false  )
 
 
 
@@ -110,7 +110,7 @@ profile5={
       rr: 17,
     }
   }
-Patient.create!(name: 'Richard Webber', profile: profile5.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 59, gender: 'Male', floor: 'Floor 1 Room 103', reason_for_visit: 'Difficulty Breathing' )
+Patient.create!(name: 'Richard Webber', profile: profile5.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 59, gender: 'Male', floor: 'Floor 1 Room 103', reason_for_visit: 'Difficulty Breathing', priority: false  )
 
 
 
