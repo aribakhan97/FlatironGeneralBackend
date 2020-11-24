@@ -20,7 +20,8 @@ class PatientsController < ApplicationController
 
     def show
         patient = Patient.find(params[:id])
-        render json: patient
+        examList = patient.exams
+        render json: {patient: patient, exams:examList}
     end 
     
     private

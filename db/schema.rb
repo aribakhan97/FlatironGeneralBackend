@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 2020_11_19_212513) do
     t.string "vitals"
     t.string "diagnosis"
     t.string "comments"
+    t.string "physical"
   end
 
   create_table "offices", force: :cascade do |t|

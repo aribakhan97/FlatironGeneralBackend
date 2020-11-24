@@ -6,6 +6,7 @@ class CreateExam < ActiveRecord::Migration[6.0]
       t.string :vitals
       t.string :diagnosis
       t.string :comments
+      t.string :physical
     end
   end
 end
