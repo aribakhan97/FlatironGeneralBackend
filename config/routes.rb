@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :exams
   resources :offices 
   get '/patient_list/:id', to: 'doctors#getPatientList'
+  post '/login', to: 'doctors#login'
 end
