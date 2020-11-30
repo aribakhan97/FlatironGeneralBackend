@@ -45,6 +45,7 @@ ActiveRecord::Schema.define(version: 2020_11_19_212513) do
     t.string "floor"
     t.string "reason_for_visit"
     t.boolean "priority"
+    t.string "image"
   end
 
 end

@@ -20,13 +20,7 @@ class PatientsController < ApplicationController
 
     def show
         patient = Patient.find(params[:id])
-        examList = patient.exams.map do |e| 
-            physical = e.physical
-            e.physical = physical.gsub! '=>', ':'
-            vitals = e.vitals
-            e.vitals = vitals.gsub! '=>', ':'
-            e
-        end
+        examList = patient.exams
         render json: {patient: patient, exams:examList}
     end 
     

@@ -26,7 +26,7 @@ profile1={
             rr: 16,
           }
         }
-Patient.create!(name: 'Cristina Yang', profile: profile1.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 205', reason_for_visit: 'Abdominal Pain', priority: false )
+Patient.create!(name: 'Cristina Yang', profile: profile1.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 205', reason_for_visit: 'Abdominal Pain', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 
 
@@ -47,7 +47,7 @@ profile2={
       rr: 16,
     }
   }
-Patient.create!(name: 'Alex Karev', profile: profile2.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 209', reason_for_visit: 'Headache', priority: false )
+Patient.create!(name: 'Alex Karev', profile: profile2.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 209', reason_for_visit: 'Headache', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 
 
@@ -68,7 +68,7 @@ profile3={
       rr: 16,
     }
   }
-Patient.create!(name: 'Addison Montegomery', profile: profile3.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 34, gender: 'Female', floor: 'Floor 2 Room 207', reason_for_visit: 'Ear Pain', priority: false  )
+Patient.create!(name: 'Addison Montegomery', profile: profile3.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 34, gender: 'Female', floor: 'Floor 2 Room 207', reason_for_visit: 'Ear Pain', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg'  )
 
 
 
@@ -89,7 +89,7 @@ profile4={
       rr: 18,
     }
   }
-Patient.create!(name: 'Jackson Avery', profile: profile4.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 201', reason_for_visit: 'Cough', priority: false  )
+Patient.create!(name: 'Jackson Avery', profile: profile4.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 28, gender: 'Male', floor: 'Floor 2 Room 201', reason_for_visit: 'Cough', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg'  )
 
 
 
@@ -110,7 +110,7 @@ profile5={
       rr: 17,
     }
   }
-Patient.create!(name: 'Richard Webber', profile: profile5.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 59, gender: 'Male', floor: 'Floor 1 Room 103', reason_for_visit: 'Difficulty Breathing', priority: false  )
+Patient.create!(name: 'Richard Webber', profile: profile5.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 59, gender: 'Male', floor: 'Floor 1 Room 103', reason_for_visit: 'Difficulty Breathing', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg'  )
 
 
 profile6={
@@ -130,7 +130,7 @@ profile6={
     rr: 17,
   }
 }
-Patient.create!(name: 'April Kepner', profile: profile6.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 29, gender: 'Female', floor: 'Floor 2 Room 208', reason_for_visit: 'Left Ankle Pain', priority: false )
+Patient.create!(name: 'April Kepner', profile: profile6.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 29, gender: 'Female', floor: 'Floor 2 Room 208', reason_for_visit: 'Left Ankle Pain', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 profile7={
   current_medications: ['Sertraline'], 
@@ -149,7 +149,7 @@ profile7={
     rr: 16,
   }
 }
-Patient.create!(name: 'Owen Hunt', profile: profile7.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 42, gender: 'Male', floor: 'Floor 1 Room 113', reason_for_visit: 'Chest Pain', priority: false )
+Patient.create!(name: 'Owen Hunt', profile: profile7.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 42, gender: 'Male', floor: 'Floor 1 Room 113', reason_for_visit: 'Chest Pain', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 
 
@@ -170,7 +170,7 @@ profile8={
     rr: 16,
   }
 }
-Patient.create!(name: 'George OMalley', profile: profile8.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 30, gender: 'Male', floor: 'Floor 2 Room 216', reason_for_visit: 'Eye Pain', priority: false )
+Patient.create!(name: 'George OMalley', profile: profile8.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 30, gender: 'Male', floor: 'Floor 2 Room 216', reason_for_visit: 'Eye Pain', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 profile9={
   current_medications: ['Glipizide'], 
@@ -189,7 +189,7 @@ profile9={
     rr: 16,
   }
 }
-Patient.create!(name: 'Amelia Shepherd', profile: profile9.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 35, gender: 'Female', floor: 'Floor 1 Room 101', reason_for_visit: 'Allergic Reaction', priority: false )
+Patient.create!(name: 'Amelia Shepherd', profile: profile9.to_json, comments: 'none', has_covid: true, office_id: Office.first.id, age: 35, gender: 'Female', floor: 'Floor 1 Room 101', reason_for_visit: 'Allergic Reaction', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
 
 profile10={
   current_medications: ['None'], 
@@ -208,4 +208,4 @@ profile10={
     rr: 16,
   }
 }
-Patient.create!(name: 'Teddy Altman', profile: profile10.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 214', reason_for_visit: 'Nausea', priority: false )
+Patient.create!(name: 'Teddy Altman', profile: profile10.to_json, comments: 'none', has_covid: false, office_id: Office.first.id, age: 32, gender: 'Female', floor: 'Floor 2 Room 214', reason_for_visit: 'Nausea', priority: false, image: 'https://www.cheatsheet.com/wp-content/uploads/2020/07/Sandra-Oh-Cristina-Yang-Greys-Anatomy-1024x576.jpg' )
